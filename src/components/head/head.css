@@ -1,0 +1,32 @@
+.head {
+    color: #2F3E46;
+    background-color: #84A98C;
+}
+
+.head h2 {
+    position: relative;
+    right: 10px;
+}
+
+.head a {
+    color: #2F3E46;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+
+.head a:hover {
+    cursor: pointer;
+    color: #CAD2C5;
+    background-color: #2F3E46;
+}
+
+@media(max-width: 576px) {
+    .head img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .head h2 {
+        font-size: 18px;
+    }
+}

@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+/* https://coolors.co/palette/cad2c5-84a98c-52796f-354f52-2f3e46 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* --------------------Navbar styles-------------------- */
+
+.navbar {
+    background-color: #354F52;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #CAD2C5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar .navbar-toggler {
+    border: none;
+    background-color: #CAD2C5;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar .navbar-brand:hover {
+    color: #84A98C;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar .nav-link:hover {
+    background-color: #CAD2C5;
+    color: #354F52;
 }
+
+.navbar .navbar-toggler:hover {
+    background-color: #84A98C;
+}
+
+.navbar .navbar-brand.active {
+    color: #007bff;
+}
+
+/* --------------------Navbar styles-------------------- */
+
+
+/* --------------------Common styles-------------------- */
+
+.academic,
+.admission,
+.faculty,
+.student,
+.gallery,
+.contact {
+    background-color: #CAD2C5;
+    color: #2F3E46;
+}
+
+/* --------------------Common styles-------------------- */
+
+
+/* --------------------About styles-------------------- */
+
+.about {
+    background-color: #f0f8ff;
+    color: #2F3E46;
+}
+
+.about .bkg {
+    background-color: #CAD2C5;
+}
+
+/* --------------------About styles-------------------- */
+
+
+/* --------------------Faculty styles-------------------- */
+
+.faculty .table th,
+.faculty .table td {
+    color: #2F3E46;
+}
+
+/* --------------------Faculty styles-------------------- */
+
+
+/* --------------------Student styles-------------------- */
+
+.student .bkg {
+    background-color: rgb(132, 169, 140, 0.5);
+}
+
+.student .col .card-body {
+    color: #2F3E46;
+}
+
+/* --------------------Student styles-------------------- */
+
+
+/* --------------------Gallery styles-------------------- */
+
+.gallery .card-body {
+    padding: 15px 2px;
+    color: #2F3E46;
+}
+
+/* --------------------Gallery styles-------------------- */
+
+
+/* --------------------Foot styles-------------------- */
+
+.foot {
+    background-color: #52796F;
+}
+
+.foot .foot-icon {
+    color: rgb(0, 0, 0, 0.8);
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0, 0.6);
+    padding: 10px 15px 15px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.foot .foot-icon:hover {
+    background-color: rgb(0, 0, 0, 0.8);
+    color: #CAD2C5;
+}
+
+.foot .legal {
+    color: #CAD2C5;
+    background-color: #2F3E46;
+}
+
+/* --------------------Foot styles-------------------- */

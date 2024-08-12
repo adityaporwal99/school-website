@@ -1,0 +1,65 @@
+.home {
+    display: flex;
+    align-items: center;
+    background-color: #2F3E46;
+    gap: 4%;
+}
+
+.home .carousel {
+    width: 80%;
+}
+
+.home .marquee-container {
+    overflow: hidden;
+}
+
+.home .marquee-container .marquee-content {
+    color: #CAD2C5;
+    animation: schoolName 15s linear infinite;
+}
+
+@keyframes schoolName {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+@media (max-width: 576px) {
+    .home {
+        flex-direction: column;
+        gap: 10px;
+        overflow: hidden;
+    }
+
+    .home .carousel {
+        width: 100%;
+    }
+
+    .home .carousel h4 {
+        font-size: 16px;
+    }
+
+    .home .marquee-container .marquee-content {
+        display: flex;
+        gap: 7px;
+        animation: mobileView 15s linear infinite;
+    }
+
+    .home .marquee-container .marquee-content h3 {
+        font-size: 18px;
+    }
+
+    @keyframes mobileView {
+        from {
+            transform: translateX(75%);
+        }
+
+        to {
+            transform: translateX(-70%);
+        }
+    }
+}
