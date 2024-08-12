@@ -1,18 +1,18 @@
 export const HomePage = {
     schoolName: "Springdale Public School",
-    logo: 'school-website/images/logo.png',
+    logo: `${process.env.PUBLIC_URL}/images/logo.png`,
     introduction: "Welcome to Springdale Public School where we nurture young minds for a brighter future",
     highlights: [
         {
-            img: "school-website/images/sports_day_highlight.jpg",
+            img: `${process.env.PUBLIC_URL}/images/sports_day_highlight.jpg`,
             description: "Annual Sports Day - Celebrating Excellence in Sports",
         },
         {
-            img: "school-website/images/science_exhibition_highlight.jpg",
+            img: `${process.env.PUBLIC_URL}/images/science_exhibition_highlight.jpg`,
             description: "Science Exhibition - Showcasing Student Innovations",
         },
         {
-            img: "school-website/images/cultural_fest_highlight.jpg",
+            img: `${process.env.PUBLIC_URL}/images/cultural_fest_highlight.jpg`,
             description: "Cultural Fest - Embracing Diversity and Creativity"
         }
     ]
@@ -101,34 +101,34 @@ export const Students = {
         {
             name: "John Smith",
             winner: "National Level Math Olympiad Winner",
-            img: "school-website/images/placeholder1.jpg"
+            img: `${process.env.PUBLIC_URL}/images/placeholder1.jpg`
         },
         {
             name: "Sarah Lee",
             winner: "Gold Medalist in State Swimming Championship",
-            img: "school-website/images/placeholder4.jpg"
+            img: `${process.env.PUBLIC_URL}/images/placeholder4.jpg`
         },
         {
             name: "Tech Innovators Club",
             winner: "Winners of Inter-School Robotics Competition",
-            img: "school-website/images/placeholder5.jpg"
+            img: `${process.env.PUBLIC_URL}/images/placeholder5.jpg`
         }
     ],
     studentCouncil: [
         {
             position: "President",
             name: "Amy Parker, Grade 12",
-            img: "school-website/images/placeholder2.jpg"
+            img: `${process.env.PUBLIC_URL}/images/placeholder2.jpg`
         },
         {
             position: "Vice President",
             name: "Rajiv Mehta, Grade 11",
-            img: "school-website/images/placeholder3.jpg"
+            img: `${process.env.PUBLIC_URL}/images/placeholder3.jpg`
         },
         {
             position: "Secretary",
             name: "Lisa Wong, Grade 10",
-            img: "school-website/images/placeholder2.jpg"
+            img: `${process.env.PUBLIC_URL}/images/placeholder2.jpg`
         }
     ]
 }
@@ -136,33 +136,33 @@ export const Students = {
 export const SchoolGallery = {
     photos: [
         {
-            img: "school-website/images/sports_day.jpg",
+            img: `${process.env.PUBLIC_URL}/images/sports_day.jpg`,
             description: "Students participating in various sports events."
         },
         {
-            img: "school-website/images/science_exhibition.jpg",
+            img: `${process.env.PUBLIC_URL}/images/science_exhibition.jpg`,
             description: "Students presenting their science projects."
         },
         {
-            img: "school-website/images/cultural_fest.jpg",
+            img: `${process.env.PUBLIC_URL}/images/cultural_fest.jpg`,
             description: "Students performing in the cultural fest."
         },
         {
-            img: "school-website/images/classroom.jpg",
+            img: `${process.env.PUBLIC_URL}/images/classroom.jpg`,
             description: "A glimpse of our interactive classrooms."
         },
         {
-            img: "school-website/images/library.jpg",
+            img: `${process.env.PUBLIC_URL}/images/library.jpg`,
             description: "Students reading and studying in the school library."
         }
     ],
     videos: [
         {
-            vdo: "school-website/images/school_tour.mp4",
+            vdo: `${process.env.PUBLIC_URL}/images/school_tour.mp4`,
             description: "Virtual tour of Springdale Public School."
         },
         {
-            vdo: "school-website/images/annual_function.mp4",
+            vdo: `${process.env.PUBLIC_URL}/images/annual_function.mp4`,
             description: "Highlights from the Annual Function 2023."
         }
     ]
