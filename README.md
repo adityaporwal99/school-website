@@ -1,3 +1,22 @@
+# School Website Template
+This school website template application is built using React.js.
+## Live Application URL
+The application is live at URL https://adityaporwal99.github.io/school-website/
+## Technologies/Concept
+This application used various libraries :
+* **`react-router-dom`** for routing
+* **`formik`** for form handling
+* **`bootstrap`** and **`react-bootstap`** for styling/responsive
+## Installation/Setup
+* Install NodeJS
+* Download/Clone the repository to local.
+* In the terminal, go to the project folder and run the **`npm install`** command to install all the npm packages.
+* Now, type **`npm start`** in order to run the application.
+## Preview
+https://github.com/user-attachments/assets/cbc779e9-35c1-4e0d-a492-72146e751d04
+
+
+
 <!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
