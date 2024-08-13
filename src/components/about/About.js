@@ -16,7 +16,7 @@ function About() {
                     <p>{history.repeat(4)}</p>
                 </Col>
                 <Col lg={6}>
-                    <img src="school-website/images/building.jpg" alt="school-image" className="w-100" />
+                    <img src={`${process.env.PUBLIC_URL}/images/building.jpg`} alt="school-image" className="w-100" />
                 </Col>
             </Row>
 
@@ -34,7 +34,7 @@ function About() {
             <Row className="gx-4 pb-lg-4">
                 <h4 className="text-capitalize">principal's desk</h4>
                 <Col lg={3} className="pt-2">
-                    <img src="school-website/images/placeholder1.jpg" alt="principal-image" className="w-100" />
+                    <img src={`${process.env.PUBLIC_URL}/images/placeholder1.jpg`} alt="principal-image" className="w-100" />
                 </Col>
                 <Col lg={9} className="pt-4">
                     <p>{principalMsg.repeat(5)}</p>
